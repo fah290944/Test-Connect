@@ -1,0 +1,163 @@
+.bg-navbar-menu {
+    display: flex;
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 1000;
+    justify-content: center;
+    border-bottom: 2px solid #9b9b9b;
+    height: 100px;
+
+    .navbar-menu-box {
+        width: 90%;
+        display: flex;
+        gap: 35px;
+        justify-content: space-between;
+        align-items: center;
+        transition: height 0.3s ease;
+
+        .navbar-menu-logo {
+            width: 25%;
+            display: flex;
+            align-items: center;
+
+            .img-logo {
+                width: fit-content;
+                height: fit-content;
+            }
+        }
+
+        .navbar-menu-contact {
+            @media screen and (max-width: 640px) {
+                .navbar-menu-language {
+                    display: none;
+
+                    .lt-lang {}
+                }
+
+                .navbar-menu-language-mobile {
+                    display: flex !important;
+
+                    .lt-language-title {
+                        font-weight: 600;
+                    }
+                }
+
+                .language-mobile {
+                    display: flex !important;
+                    flex-direction: column;
+                    position: absolute;
+                    top: 100px;
+                    width: 100%;
+                    right: 0px;
+                    background-color: white;
+
+                    .lt-language {
+                        padding-inline: 20px;
+                        padding-block: 20px;
+                        list-style-type: none;
+                        border-bottom: 1px solid #cecece !important;
+                    }
+                }
+            }
+            .navbar-menu-language {
+                .lt-lang {}
+            }
+            .navbar-menu-language-mobile {
+                display: none;
+                .lt-language-title {}
+            }
+            .language-mobile {
+                display: none;
+                .lt-language {}
+            }
+        }
+
+        .navbar-menu {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            .navbar-menu-item {
+                width: 100%;
+                height: fit-content;
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                top: 100px;
+                right: 0px;
+                gap: 0px;
+                align-items: center;
+                font-weight: 700;
+                font-size: 21px;
+                background: white;
+                .item-menu-path {
+                    width: 100%;
+                    height: 70%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding-inline: 10px;
+                    padding-block: 15px;
+                    border-bottom: 1px solid #cecece !important;
+                }
+
+                .item-submenu-path:hover {
+                    color: #2cbc63;
+                }
+
+                .sub-menu {
+                    width: 100%;
+                    .sub-menu-item {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        width: 100%;
+                        padding-inline: 10px;
+                        padding-block: 15px;
+                        border-bottom: 1px solid #cecece !important;
+                    }
+
+                    .sub-menu-item:hover {}
+
+                }
+            }
+
+            .active-menu {
+                color: #2cbc63 !important;
+            }
+
+            .active-arrow {
+                fill: #2cbc63 !important;
+            }
+
+            .keyboard-arrow:hover,
+            .keyboard-arrow:active {
+                fill: #2cbc63;
+            }
+
+            .menu {
+                display: flex;
+                justify-content: center;
+                width: 100%;
+            }
+
+            .menu:hover {
+                color: #2cbc63;
+            }
+
+
+            .btn-contact-menu {
+                height: 55px;
+                width: 168px;
+                color: white;
+                background-color: #2cbc63;
+                border-radius: 50px;
+                font-weight: 600;
+                font-size: 19px;
+            }
+
+
+        }
+    }
+
+}

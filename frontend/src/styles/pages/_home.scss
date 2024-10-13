@@ -1,0 +1,1742 @@
+.home-page {
+    width: 100%;
+    height: fit-content;
+
+    .bg-accounting {
+        display: flex;
+        justify-content: center;
+
+        .accounting {
+            width: 100%;
+            height: fit-content;
+            padding-bottom: 50px;
+
+            .bg-img-accounting {
+                position: relative;
+                width: 100%;
+                z-index: -1;
+                overflow: hidden;
+
+                .img-accounting {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+
+                .box-accounting {
+                    position: absolute;
+                    left: 25%;
+                    top: 50%;
+                    width: 80%;
+                    max-width: 480px;
+                    min-width: 250px;
+                    transform: translate(-50%, -50%);
+                    height: fit-content;
+                    background: #f9f9fb;
+                    padding-inline: 30px;
+                    display: flex;
+                    flex-direction: column;
+                    font-size: 25px;
+                    padding-block: 20px; 
+
+                    .lt-accounting{
+                        font-size: 32px;
+                        font-weight: 600;
+                        color: #174baa;
+                    }
+                    .lt-solutions{
+                        font-size: 32px;
+                        font-weight: 600;
+                    }
+                    .lt-business{
+                        font-size: 32px;
+                        font-weight: 600;
+                    }
+                    .lt-tax{
+                        font-size: 17px;
+                        padding-block: 15px;
+                    }
+                    .lt-description1{
+                        font-size: 15px;
+                        line-height: 36px;
+                        padding-bottom: 15px;
+                    }
+                    .btn-contact-us{
+                        width: fit-content;
+                        color:  #fff;
+                        background: #174baa;
+                        padding-block: 10px;
+                        padding-inline: 25px;
+                        font-size: 16px;
+                    }
+                }
+            }
+
+        }
+    }
+
+    .bg-about-us {
+        display: flex;
+        justify-content: center;
+        padding-top: 40px;
+
+        .about-us {
+            width: 80%;
+            height: fit-content;
+            padding-inline: 5px;
+            padding-bottom: 50px;
+
+            .bg-manage {
+                display: flex;
+                justify-content: space-between;
+
+                .bg-img-when {
+                    position: relative;
+                    width: 80%;
+                    z-index: -1;
+
+                    .img-tower {
+                        width: 100%;
+                        height: 630px;
+                        object-fit: cover;
+                    }
+
+                    .box-when-it {
+                        position: absolute;
+                        bottom: -2%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        width: 90%;
+                        height: auto;
+                        background: #f9f9fb;
+                        padding-inline: 30px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border-left: 3px solid #7f9bc8;
+                        ;
+                        font-size: 25px;
+                        padding-block: 40px;
+                    }
+                }
+
+                .box-lt-about {
+                    width: 100%;
+                    padding-left: 50px;
+                }
+            }
+
+            .dash {}
+        }
+    }
+
+    .bg-solution-for-every {
+        display: flex;
+        justify-content: center;
+        background: #023a51;
+
+        .solution-for-every {
+            width: 80%;
+            height: fit-content;
+            background: #023a51;
+            padding-inline: 5px;
+            padding-bottom: 50px;
+
+            .lt-solution-for-every {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 20px;
+                padding-bottom: 60px;
+                padding-top: 40px;
+                padding-inline: 50px;
+
+                .lt-solution {
+                    color: white;
+                    font-size: 30px;
+                    flex: 1;
+                    text-align: center;
+                    padding-right: 25px;
+                }
+
+                .lt-des {
+                    display: flex;
+                    color: white;
+                    font-size: 16px;
+                    flex: 1;
+                }
+            }
+
+            .box-des-1 {
+                display: flex;
+                justify-content: center;
+                gap: 35px;
+
+                .box-auditing_for {
+                    width: 400px;
+                    display: flex;
+                    height: fit-content;
+                    padding-top: 20px;
+                    padding-bottom: 40px;
+                    padding-inline: 20px;
+                    border-radius: 10px;
+                    gap: 10px;
+
+                    .icon-eventAvailable {
+                        width: 35px;
+                        height: 40px;
+                        fill: #7f9bc8;
+
+                    }
+
+                    .lt-auditing_for {
+                        .auditing_for {
+                            font-size: 25px;
+                            line-height: 29px;
+                            padding-bottom: 20px;
+                        }
+
+                        .des_auditing {
+                            font-size: 19px;
+                            line-height: 23px;
+                            padding-bottom: 20px;
+
+                        }
+
+                        .read_more {
+                            font-size: 19px;
+                            color: #2cbc63;
+                        }
+
+                    }
+
+                }
+
+                .box-auditing_for:hover {
+                    .icon-eventAvailable {
+                        fill: #4778c6;
+
+                    }
+
+                    .lt-auditing_for {
+                        .auditing_for {
+                            font-size: 25px;
+                            line-height: 29px;
+                            padding-bottom: 20px;
+                            color: #4778c6;
+                        }
+
+                        .des_auditing {
+                            font-size: 19px;
+                            line-height: 23px;
+                            padding-bottom: 20px;
+
+                        }
+
+                        .read_more {
+                            font-size: 19px;
+                            color: #4778c6;
+                        }
+
+                    }
+
+                }
+
+                .box-accounting_for {
+                    width: 350px;
+                    display: flex;
+                    height: fit-content;
+                    padding-top: 20px;
+                    padding-bottom: 40px;
+                    padding-inline: 25px;
+                    border-radius: 10px;
+                    gap: 10px;
+
+                    .icon-eventAvailable {
+                        width: 35px;
+                        height: 40px;
+                        fill: #7f9bc8;
+
+                    }
+
+                    .lt-accounting_for {
+                        .accounting_for {
+                            font-size: 25px;
+                            line-height: 29px;
+                            padding-bottom: 20px;
+                        }
+
+                        .des_accounting {
+                            font-size: 19px;
+                            line-height: 23px;
+                            padding-bottom: 20px;
+
+                        }
+
+                        .read_more {
+                            font-size: 19px;
+                            color: #2cbc63;
+                        }
+
+                    }
+
+                }
+
+                .box-accounting_for:hover {
+                    .icon-eventAvailable {
+                        fill: #4778c6;
+
+                    }
+
+                    .lt-auditing_for {
+                        .auditing_for {
+                            font-size: 25px;
+                            line-height: 29px;
+                            padding-bottom: 12px;
+                            color: #4778c6;
+                            padding-bottom: 20px;
+                        }
+
+                        .des_auditing {
+                            font-size: 19px;
+                            line-height: 23px;
+                            padding-bottom: 20px;
+
+                        }
+
+                        .read_more {
+                            font-size: 19px;
+                            color: #4778c6;
+                        }
+
+                    }
+
+                }
+
+            }
+        }
+    }
+
+    .bg-need-personal {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 50px;
+
+        .need-personal {
+            width: 80%;
+            height: fit-content;
+            padding-inline: 5px;
+            padding-bottom: 50px;
+
+            .bg-lt-need {
+
+                .lt-need {
+                    padding-top: 50px;
+                    font-size: 30px;
+                }
+
+                .lt-des-need {
+                    font-size: 16px;
+                    padding-top: 25px;
+                    padding-bottom: 35px;
+                }
+
+                .btn-how-we-can {
+                    height: 55px;
+                    width: 222px;
+                    background-color: #2cbc63;
+                    color: #fff;
+                    border-radius: 50px;
+                    text-transform: none;
+                    font-size: 18px;
+                    font-weight: 600;
+                }
+            }
+
+            .box-empowering {
+                display: flex;
+                justify-content: center;
+                padding-top: 80px;
+
+                .img-empowering {
+                    width: 60%;
+                    height: fit-content;
+                    border-radius: 20px;
+                    box-shadow: 0px 0px 20px 2px #606060;
+                }
+
+                .bg-empowering {
+                    padding-left: 60px;
+
+                    .lt-empowering {
+                        font-size: 40px;
+                        line-height: 1.2;
+                        letter-spacing: -0.03em;
+                        padding-bottom: 25px;
+                    }
+
+                    .lt-financial {
+                        color: #023a51;
+                        text-align: justify;
+                        padding-block: 15px;
+                        border-radius: 10px;
+                        padding-left: 35px;
+                        text-transform: none;
+                        font-size: 20px;
+                        font-weight: 600;
+                    }
+
+                    .lt-financial:hover {
+                        color: #2cbc63;
+                    }
+
+                    .lt-income {
+                        color: #023a51;
+                        text-align: justify;
+                        padding-block: 15px;
+                        border-radius: 10px;
+                        padding-left: 35px;
+                        text-transform: none;
+                        font-size: 20px;
+                        font-weight: 600;
+                    }
+
+                    .lt-income:hover {
+                        color: #2cbc63;
+                    }
+
+                    .lt-payroll {
+                        color: #023a51;
+                        text-align: justify;
+                        padding-block: 15px;
+                        border-radius: 10px;
+                        padding-left: 35px;
+                        text-transform: none;
+                        font-size: 20px;
+                        font-weight: 600;
+                    }
+
+                    .lt-payroll:hover {
+                        color: #2cbc63;
+                    }
+                }
+
+            }
+        }
+    }
+
+    .bg-no-matter {
+        display: flex;
+        justify-content: center;
+        background: #f9fafb;
+
+        .no-matter {
+            width: 80%;
+            height: 1000px;
+            background: #f9fafb;
+            padding-inline: 5px;
+            .bg-box-matter {
+                display: flex;
+                justify-content: space-between;
+                padding-bottom: 80px;
+                gap: 15px;
+
+                .box-matter {
+                    width: fit-content;
+                    height: fit-content;
+                    border-radius: 10px;
+                    background: white;
+                    padding-top: 25px;
+                    padding-bottom: 40px;
+                    padding-left: 30px;
+                    padding-right: 30px;
+
+                    .img-matter {
+                        width: 200px;
+                        height: 210px;
+                    }
+                }
+            }
+        }
+    }
+
+    .bg-get-personal {
+        display: flex;
+        justify-content: center;
+        background: transparent;
+        position: relative;
+        padding-bottom: 480px;
+
+        .get-personal {
+            width: 80%;
+            height: fit-content;
+            background: #023a51;;
+            border-radius: 24px;
+            padding: 40px;
+            display: flex;
+            justify-content: space-between;
+            position: absolute;
+            top: -280px;
+            padding-bottom: 36px;
+
+            .bg-get {
+                width: 100%;
+
+                .lt-get {
+                    font-size: 60px;
+                    color: #fff;
+                    letter-spacing: 2px;
+                    line-height: 65px;
+                }
+
+                .bg-lr-get {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+                    padding-top: 40px;
+
+                    .box-get {
+                        padding-bottom: 60px;
+
+                        .img-get {
+                            width: 40px;
+                            height: 40px;
+                        }
+
+                        .img-get {
+                            width: 40px;
+                            height: 40px;
+                        }
+                    }
+                }
+            }
+
+            .bg-form {
+                width: 100%;
+                height: fit-content;
+                background: white;
+                border-radius: 15px;
+                display: flex;
+                padding-top: 40px;
+                padding-bottom: 20px;
+                padding-inline: 50px;
+                justify-content: center;
+
+                .set-position {
+                    display: flex;
+                    justify-content: space-between;
+                }
+
+                .set-position-1 {
+                    display: flex;
+                    justify-content: space-between;
+                }
+
+                form {
+                    display: flex;
+                    flex-direction: column;
+                    max-width: 500px;
+                    width: 100%;
+                }
+
+                .form-group {
+                    width: 100%;
+                    margin-bottom: 15px;
+                }
+
+                label {
+                    margin-bottom: 5px;
+                    display: block;
+                }
+
+                input,
+                select,
+                textarea {
+                    width: 100%;
+                    padding: 8px;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                }
+
+                button {
+                    background-color: #28a745;
+                    color: white;
+                    border: none;
+                    padding: 10px;
+                    cursor: pointer;
+                    border-radius: 50px;
+                    font-weight: 600;
+                }
+
+                button:hover {
+                    background-color: #218838;
+                }
+
+            }
+        }
+    }
+
+
+}
+
+@media screen and (min-width: 641px) and (max-width: 1200px) {
+    .home-page {
+        width: 100%;
+        height: fit-content;
+
+        .bg-accounting {
+            display: flex;
+            justify-content: center;
+    
+            .accounting {
+                width: 100%;
+                height: fit-content;
+                padding-bottom: 50px;
+    
+                .bg-img-accounting {
+                    position: relative;
+                    width: 100%;
+                    z-index: -1;
+                    overflow: hidden;
+    
+                    .img-accounting {
+                        width: 100%;
+                        height: 400px;
+                        object-fit: cover;
+                    }
+    
+                    .box-accounting {
+                        position: absolute;
+                        left: 50%;
+                        top: 50%;
+                        width: 100%;
+                        max-width: 310px;
+                        min-width: 250px;;
+                        height: 375px;
+                        background: #f9f9fb;
+                        padding-inline: 30px;
+                        font-size: 25px;
+                        padding-block: 20px; 
+    
+                        .lt-accounting{
+                            font-size: 25px;
+                            font-weight: 600;
+                            color: #174baa;
+                        }
+                        .lt-solutions{
+                            font-size: 25px;
+                            font-weight: 600;
+                        }
+                        .lt-business{
+                            font-size: 25px;
+                            font-weight: 600;
+                        }
+                        .lt-tax{
+                            font-size: 16px;
+                            padding-block: 15px;
+                        }
+                        .lt-description1{
+                            font-size: 14px;
+                            line-height: normal;
+                            padding-bottom: 15px;
+                        }
+                        .btn-contact-us{
+                            width: fit-content;
+                            color:  #fff;
+                            background: #174baa;
+                            padding-block: 10px;
+                            padding-inline: 25px;
+                            font-size: 16px;
+                        }
+                    }
+                }
+    
+            }
+        }
+
+        .bg-about-us {
+            display: flex;
+            justify-content: center;
+            padding-top: 40px;
+
+            .about-us {
+                width: 95%;
+                height: fit-content;
+                padding-inline: 5px;
+                padding-bottom: 50px;
+
+                .bg-manage {
+                    display: flex;
+                    justify-content: space-between;
+
+                    .bg-img-when {
+                        position: relative;
+                        width: 80%;
+                        height: fit-content;
+                        z-index: -1;
+
+                        .img-tower {
+                            width: 100%;
+                            height: 630px;
+                            object-fit: cover;
+                        }
+
+                        .box-when-it {
+                            position: absolute;
+                            bottom: -10%;
+                            left: 50%;
+                            width: 90%;
+                            height: auto;
+                            background: #f9f9fb;
+                            padding-inline: 30px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            border-left: 3px solid #7f9bc8;
+                            ;
+                            font-size: 25px;
+                            padding-block: 40px;
+                        }
+                    }
+
+                    .box-lt-about {
+                        width: 100%;
+                        padding-left: 50px;
+                    }
+                }
+
+                .dash {}
+            }
+        }
+
+        .bg-solution-for-every {
+            display: flex;
+            justify-content: center;
+            background: #023a51;
+
+            .solution-for-every {
+                width: 95%;
+                height: fit-content;
+                background: #023a51;
+                padding-inline: 5px;
+                padding-bottom: 50px;
+
+                .lt-solution-for-every {
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 20px;
+                    padding-bottom: 60px;
+                    padding-top: 40px;
+
+                    .lt-solution {
+                        padding-right: 0px !important;
+                        text-align: center !important;
+                    }
+
+                    .lt-des {
+                        display: none;
+                    }
+                }
+
+                .box-des-1 {
+                    display: flex;
+                    justify-content: center;
+                    gap: 35px;
+
+                    .box-auditing_for {
+                        width: 400px;
+                        display: flex;
+                        height: fit-content;
+                        padding-top: 20px;
+                        padding-bottom: 40px;
+                        padding-inline: 20px;
+                        border-radius: 10px;
+                        gap: 10px;
+
+                        .icon-eventAvailable {
+                            width: 35px;
+                            height: 40px;
+                            fill: #7f9bc8;
+
+                        }
+
+                        .lt-auditing_for {
+                            .auditing_for {
+                                font-size: 25px;
+                                line-height: 29px;
+                                padding-bottom: 20px;
+                            }
+
+                            .des_auditing {
+                                font-size: 19px;
+                                line-height: 23px;
+                                padding-bottom: 20px;
+
+                            }
+
+                            .read_more {
+                                font-size: 19px;
+                                color: #2cbc63;
+                            }
+
+                        }
+
+                    }
+
+                    .box-auditing_for:hover {
+                        .icon-eventAvailable {
+                            fill: #4778c6;
+
+                        }
+
+                        .lt-auditing_for {
+                            .auditing_for {
+                                font-size: 25px;
+                                line-height: 29px;
+                                padding-bottom: 20px;
+                                color: #4778c6;
+                            }
+
+                            .des_auditing {
+                                font-size: 19px;
+                                line-height: 23px;
+                                padding-bottom: 20px;
+
+                            }
+
+                            .read_more {
+                                font-size: 19px;
+                                color: #4778c6;
+                            }
+
+                        }
+
+                    }
+
+                    .box-accounting_for {
+                        width: 350px;
+                        display: flex;
+                        height: fit-content;
+                        padding-top: 20px;
+                        padding-bottom: 40px;
+                        padding-inline: 25px;
+                        border-radius: 10px;
+                        gap: 10px;
+
+                        .icon-eventAvailable {
+                            width: 35px;
+                            height: 40px;
+                            fill: #7f9bc8;
+
+                        }
+
+                        .lt-accounting_for {
+                            .accounting_for {
+                                font-size: 25px;
+                                line-height: 29px;
+                                padding-bottom: 20px;
+                            }
+
+                            .des_accounting {
+                                font-size: 19px;
+                                line-height: 23px;
+                                padding-bottom: 20px;
+
+                            }
+
+                            .read_more {
+                                font-size: 19px;
+                                color: #2cbc63;
+                            }
+
+                        }
+
+                    }
+
+                    .box-accounting_for:hover {
+                        .icon-eventAvailable {
+                            fill: #4778c6;
+
+                        }
+
+                        .lt-auditing_for {
+                            .auditing_for {
+                                font-size: 25px;
+                                line-height: 29px;
+                                padding-bottom: 12px;
+                                color: #4778c6;
+                                padding-bottom: 20px;
+                            }
+
+                            .des_auditing {
+                                font-size: 19px;
+                                line-height: 23px;
+                                padding-bottom: 20px;
+
+                            }
+
+                            .read_more {
+                                font-size: 19px;
+                                color: #4778c6;
+                            }
+
+                        }
+
+                    }
+
+                }
+
+            }
+        }
+
+        .bg-need-personal {
+            display: flex;
+            justify-content: center;
+            padding-bottom: 50px;
+
+            .need-personal {
+                width: 95%;
+                height: fit-content;
+                padding-inline: 5px;
+                padding-bottom: 50px;
+
+                .bg-lt-need {
+
+                    .lt-need {
+                        padding-top: 50px;
+                        font-size: 30px;
+                    }
+
+                    .lt-des-need {
+                        font-size: 16px;
+                        padding-top: 25px;
+                        padding-bottom: 35px;
+                    }
+
+                    .btn-how-we-can {
+                        height: 55px;
+                        width: 222px;
+                        background-color: #2cbc63;
+                        color: #fff;
+                        border-radius: 50px;
+                        text-transform: none;
+                        font-size: 18px;
+                        font-weight: 600;
+                    }
+                }
+
+                .box-empowering {
+                    display: flex;
+                    justify-content: center;
+                    padding-top: 80px;
+
+                    .img-empowering {
+                        width: 50%;
+                        height: 360px;
+                        border-radius: 20px;
+                        box-shadow: 0px 0px 20px 2px #606060;
+                    }
+
+                    .bg-empowering {
+                        padding-left: 60px;
+
+                        .lt-empowering {
+                            font-size: 40px;
+                            line-height: 1.2;
+                            letter-spacing: -0.03em;
+                            padding-bottom: 25px;
+                        }
+
+                        .lt-financial {
+                            color: #023a51;
+                            text-align: justify;
+                            padding-block: 15px;
+                            border-radius: 10px;
+                            padding-left: 35px;
+                            text-transform: none;
+                            font-size: 20px;
+                            font-weight: 600;
+                        }
+
+                        .lt-financial:hover {
+                            color: #2cbc63;
+                        }
+
+                        .lt-income {
+                            color: #023a51;
+                            text-align: justify;
+                            padding-block: 15px;
+                            border-radius: 10px;
+                            padding-left: 35px;
+                            text-transform: none;
+                            font-size: 20px;
+                            font-weight: 600;
+                        }
+
+                        .lt-income:hover {
+                            color: #2cbc63;
+                        }
+
+                        .lt-payroll {
+                            color: #023a51;
+                            text-align: justify;
+                            padding-block: 15px;
+                            border-radius: 10px;
+                            padding-left: 35px;
+                            text-transform: none;
+                            font-size: 20px;
+                            font-weight: 600;
+                        }
+
+                        .lt-payroll:hover {
+                            color: #2cbc63;
+                        }
+                    }
+
+                }
+            }
+        }
+
+        .bg-no-matter {
+            display: flex;
+            justify-content: center;
+            background: #f9fafb;
+
+            .no-matter {
+                width: 95%;
+                height: 800px;
+                background: #f9fafb;
+                padding-inline: 5px;
+                padding-bottom: 50px;
+
+                .bg-box-matter {
+                    display: flex;
+                    justify-content: space-between;
+                    padding-bottom: 80px;
+                    gap: 15px;
+
+                    .box-matter {
+                        width: fit-content;
+                        height: fit-content;
+                        border-radius: 10px;
+                        background: white;
+                        padding-top: 25px;
+                        padding-bottom: 40px;
+                        padding-left: 30px;
+                        padding-right: 30px;
+                        .img-matter {
+                            width: 200px;
+                            height: 210px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .bg-get-personal {
+            display: flex;
+            justify-content: center;
+            background: transparent;
+            position: relative;
+            padding-bottom: 900px; 
+
+            .get-personal {
+                width: 95%;
+                height: fit-content;
+                background: #023a51;
+                border-radius: 24px;
+                padding: 40px;
+                display: flex;
+                flex-direction: column;
+                top: -20px;
+
+                .bg-get {
+                    width: 100%;
+
+                    .lt-get {
+                        font-size: 40px;
+                        color: #fff;
+                        letter-spacing: 2px;
+                        line-height: 65px;
+                        padding-bottom: 30px;
+                        text-align: center;
+                    }
+
+                    .bg-lr-get {
+                        display: none;
+                        flex-direction: column;
+                        gap: 15px;
+                        padding-top: 40px;
+
+                        .box-get {
+                            padding-bottom: 60px;
+
+                            .img-get {
+                                width: 40px;
+                                height: 40px;
+                            }
+
+                            .img-get {
+                                width: 40px;
+                                height: 40px;
+                            }
+                        }
+                    }
+                }
+
+                .bg-form {
+                    width: 100%;
+                    height: fit-content;
+                    background: white;
+                    border-radius: 15px;
+                    display: flex;
+                    padding-top: 40px;
+                    padding-bottom: 20px;
+                    padding-inline: 50px;
+                    justify-content: center;
+
+                    .set-position {
+                        display: flex;
+                        justify-content: space-between;
+                    }
+
+                    .set-position-1 {
+                        display: flex;
+                        justify-content: space-between;
+                    }
+
+                    form {
+                        display: flex;
+                        flex-direction: column;
+                        max-width: 500px;
+                        width: 100%;
+                    }
+
+                    .form-group {
+                        width: 100%;
+                        margin-bottom: 15px;
+                    }
+
+                    label {
+                        margin-bottom: 5px;
+                        display: block;
+                    }
+
+                    input,
+                    select,
+                    textarea {
+                        width: 100%;
+                        padding: 8px;
+                        border: 1px solid #ccc;
+                        border-radius: 4px;
+                    }
+
+                    button {
+                        background-color: #28a745;
+                        color: white;
+                        border: none;
+                        padding: 10px;
+                        cursor: pointer;
+                        border-radius: 50px;
+                        font-weight: 600;
+                    }
+
+                    button:hover {
+                        background-color: #218838;
+                    }
+
+                }
+            }
+        }
+
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .home-page {
+        width: 100%;
+        height: fit-content;
+
+        .bg-accounting {
+            display: flex;
+            justify-content: center;
+    
+            .accounting {
+                width: 100%;
+                height: fit-content;
+                padding-bottom: 50px;
+    
+                .bg-img-accounting {
+                    position: relative;
+                    width: 100%;
+                    z-index: -1;
+                    overflow: hidden;
+    
+                    .img-accounting {
+                        width: 100%;
+                        height: 400px;
+                        object-fit: cover;
+                    }
+    
+                    .box-accounting {
+                        position: absolute;
+                        left: 50%;
+                        top: 50%;
+                        width: 100%;
+                        max-width: 290px;
+                        min-width: 250px;
+                        height: fit-content;
+                        background: #f9f9fb;
+                        padding-inline: 15px;
+                        font-size: 25px;
+                        padding-block: 15px; 
+                        align-items: center;
+    
+                        .lt-accounting{
+                            font-size: 18px;
+                            font-weight: 600;
+                            color: #174baa;
+                        }
+                        .lt-solutions{
+                            font-size: 18px;
+                            font-weight: 600;
+                        }
+                        .lt-business{
+                            font-size: 18px;
+                            font-weight: 600;
+                        }
+                        .lt-tax{
+                            font-size: 14px;
+                            font-weight: 500;
+                            padding-block: 5px;
+                        }
+                        .lt-description1{
+                            font-size: 10px;
+                            line-height: normal;
+                            padding-bottom: 5px;
+                        }
+                        .btn-contact-us{
+                            width: fit-content;
+                            color:  #fff;
+                            background: #174baa;
+                            padding-block: 10px;
+                            padding-inline: 25px;
+                            font-size: 16px;
+                        }
+                    }
+                }
+    
+            }
+        }
+
+        .bg-about-us {
+            display: flex;
+            justify-content: center;
+            padding-top: 40px;
+
+            .about-us {
+                width: 95%;
+                height: fit-content;
+                padding-inline: 5px;
+                padding-bottom: 50px;
+
+                .bg-manage {
+                    display: flex;
+                    flex-direction: column;
+
+                    .bg-img-when {
+                        position: relative;
+                        width: 100%;
+                        height: fit-content;
+                        z-index: -1;
+
+                        .img-tower {
+                            width: 100%;
+                            height: 250px;
+                            object-fit: cover;
+                        }
+
+                        .box-when-it {
+                            position: absolute;
+                            bottom: 5%;
+                            left: 5%;
+                            transform: translate(0%, 0%);
+                            width: 90%;
+                            height: auto;
+                            background: #f9f9fb;
+                            padding-inline: 30px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            border-left: 3px solid #7f9bc8;
+                            ;
+                            font-size: 25px;
+                            padding-block: 20px;
+                        }
+                    }
+
+                    .box-lt-about {
+                        width: 100%;
+                        padding-left: 0px;
+                    }
+                }
+
+                .dash {}
+            }
+        }
+
+        .bg-solution-for-every {
+            display: flex;
+            justify-content: center;
+            background: #023a51;
+
+            .solution-for-every {
+                width: 95%;
+                height: fit-content;
+                background: #023a51;
+                padding-inline: 5px;
+                padding-bottom: 50px;
+
+                .lt-solution-for-every {
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 20px;
+                    padding-bottom: 40px;
+                    padding-top: 40px;
+
+                    .lt-solution {
+                        padding-right: 0px !important;
+                        text-align: center !important;
+                    }
+
+                    .lt-des {
+                        display: none;
+                    }
+                }
+
+                .box-des-1 {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 25px !important;
+
+                    .box-auditing_for {
+                        width: 100% !important;
+                        display: flex;
+                        height: fit-content;
+                        padding-block: 20px;
+                        padding-inline: 20px;
+                        border-radius: 10px;
+                        gap: 10px;
+
+                        .icon-eventAvailable {
+                            width: 35px;
+                            height: 40px;
+                            fill: #7f9bc8;
+
+                        }
+
+                        .lt-auditing_for {
+                            .auditing_for {
+                                font-size: 25px;
+                                line-height: 29px;
+                                padding-bottom: 20px;
+                            }
+
+                            .des_auditing {
+                                font-size: 19px;
+                                line-height: 23px;
+                                padding-bottom: 20px;
+
+                            }
+
+                            .read_more {
+                                font-size: 19px;
+                                color: #2cbc63;
+                            }
+
+                        }
+
+                    }
+
+                    .box-auditing_for:hover {
+                        .icon-eventAvailable {
+                            fill: #4778c6;
+
+                        }
+
+                        .lt-auditing_for {
+                            .auditing_for {
+                                font-size: 25px;
+                                line-height: 29px;
+                                padding-bottom: 20px;
+                                color: #4778c6;
+                            }
+
+                            .des_auditing {
+                                font-size: 19px;
+                                line-height: 23px;
+                                padding-bottom: 20px;
+
+                            }
+
+                            .read_more {
+                                font-size: 19px;
+                                color: #4778c6;
+                            }
+
+                        }
+
+                    }
+
+                    .box-accounting_for {
+                        width: 100% !important;
+                        display: flex;
+                        height: fit-content;
+                        padding-top: 20px;
+                        padding-bottom: 40px;
+                        padding-inline: 25px;
+                        border-radius: 10px;
+                        gap: 10px;
+
+                        .icon-eventAvailable {
+                            width: 35px;
+                            height: 40px;
+                            fill: #7f9bc8;
+
+                        }
+
+                        .lt-accounting_for {
+                            .accounting_for {
+                                font-size: 25px;
+                                line-height: 29px;
+                                padding-bottom: 20px;
+                            }
+
+                            .des_accounting {
+                                font-size: 19px;
+                                line-height: 23px;
+                                padding-bottom: 20px;
+
+                            }
+
+                            .read_more {
+                                font-size: 19px;
+                                color: #2cbc63;
+                            }
+
+                        }
+
+                    }
+
+                    .box-accounting_for:hover {
+                        .icon-eventAvailable {
+                            fill: #4778c6;
+
+                        }
+
+                        .lt-auditing_for {
+                            .auditing_for {
+                                font-size: 25px;
+                                line-height: 29px;
+                                padding-bottom: 12px;
+                                color: #4778c6;
+                                padding-bottom: 20px;
+                            }
+
+                            .des_auditing {
+                                font-size: 19px;
+                                line-height: 23px;
+                                padding-bottom: 20px;
+
+                            }
+
+                            .read_more {
+                                font-size: 19px;
+                                color: #4778c6;
+                            }
+
+                        }
+
+                    }
+
+                }
+
+            }
+        }
+
+        .bg-need-personal {
+            display: flex;
+            justify-content: center;
+            padding-bottom: 50px;
+
+            .need-personal {
+                width: 95%;
+                height: fit-content;
+                padding-inline: 5px;
+                padding-bottom: 50px;
+
+                .bg-lt-need {
+
+                    .lt-need {
+                        padding-top: 50px;
+                        font-size: 30px;
+                    }
+
+                    .lt-des-need {
+                        font-size: 16px;
+                        padding-top: 25px;
+                        padding-bottom: 35px;
+                    }
+
+                    .btn-how-we-can {
+                        height: 55px;
+                        width: fit-content;
+                        background-color: #2cbc63;
+                        color: #fff;
+                        border-radius: 50px;
+                        text-transform: none;
+                        font-size: 18px;
+                        font-weight: 600;
+                        padding-inline: 15px;
+                    }
+                }
+
+                .box-empowering {
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    align-items: center;
+                    padding-top: 80px;
+
+                    .img-empowering {
+                        width: 100%;
+                        height: 360px;
+                        border-radius: 20px;
+                        box-shadow: 0px 0px 20px 2px #606060;
+                    }
+
+                    .bg-empowering {
+                        padding-left: 0px;
+                        padding-top: 50px !important;
+
+                        .lt-empowering {
+                            font-size: 40px;
+                            line-height: 1.2;
+                            letter-spacing: -0.03em;
+                            padding-bottom: 25px;
+                        }
+
+                        .lt-financial {
+                            color: #023a51;
+                            text-align: justify;
+                            padding-block: 15px;
+                            border-radius: 10px;
+                            padding-left: 35px;
+                            text-transform: none;
+                            font-size: 20px;
+                            font-weight: 600;
+                        }
+
+                        .lt-financial:hover {
+                            color: #2cbc63;
+                        }
+
+                        .lt-income {
+                            color: #023a51;
+                            text-align: justify;
+                            padding-block: 15px;
+                            border-radius: 10px;
+                            padding-left: 35px;
+                            text-transform: none;
+                            font-size: 20px;
+                            font-weight: 600;
+                        }
+
+                        .lt-income:hover {
+                            color: #2cbc63;
+                        }
+
+                        .lt-payroll {
+                            color: #023a51;
+                            text-align: justify;
+                            padding-block: 15px;
+                            border-radius: 10px;
+                            padding-left: 35px;
+                            text-transform: none;
+                            font-size: 20px;
+                            font-weight: 600;
+                        }
+
+                        .lt-payroll:hover {
+                            color: #2cbc63;
+                        }
+                    }
+
+                }
+            }
+        }
+
+        .bg-no-matter {
+            display: flex;
+            justify-content: center;
+            background: #f9fafb;
+
+            .no-matter {
+                width: 95%;
+                height: fit-content;
+                background: #f9fafb;
+                padding-inline: 5px;
+                padding-bottom: 50px;
+
+                .bg-box-matter {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    padding-bottom: 80px;
+                    gap: 15px;
+
+                    .box-matter {
+                        width: fit-content;
+                        height: fit-content;
+                        border-radius: 10px;
+                        background: white;
+                        padding-top: 25px;
+                        padding-bottom: 40px;
+                        padding-left: 30px;
+                        padding-right: 30px;
+
+                        .img-matter {
+                            width: 200px;
+                            height: 210px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .bg-get-personal {
+            display: flex;
+            justify-content: center;
+            background: transparent;
+            position: relative;
+            padding-bottom: 970px;
+
+            .get-personal {
+                width: 95%;
+                height: fit-content;
+                background: #023a51;
+                border-radius: 24px;
+                padding: 10px;
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                top: -20px;
+                padding-bottom: 36px;
+
+                .bg-get {
+                    width: 100%;
+
+                    .lt-get {
+                        font-size: 40px;
+                        color: #fff;
+                        letter-spacing: 2px;
+                        padding-bottom: 30px;
+                        padding-inline: 10px;
+                        text-align: center;
+                    }
+
+                    .bg-lr-get {
+                        display: none;
+                        flex-direction: column;
+                        gap: 15px;
+                        padding-top: 40px;
+
+                        .box-get {
+                            padding-bottom: 60px;
+
+                            .img-get {
+                                width: 40px;
+                                height: 40px;
+                            }
+
+                            .img-get {
+                                width: 40px;
+                                height: 40px;
+                            }
+                        }
+                    }
+                }
+
+                .bg-form {
+                    width: 100%;
+                    height: fit-content;
+                    background: white;
+                    border-radius: 15px;
+                    display: flex;
+                    padding-top: 40px;
+                    padding-bottom: 20px;
+                    padding-inline: 50px;
+                    justify-content: center;
+
+                    .set-position {
+                        display: flex;
+                        flex-direction: column;
+                    }
+
+                    .set-position-1 {
+                        display: flex;
+                        flex-direction: column;
+                    }
+
+                    form {
+                        display: flex;
+                        flex-direction: column;
+                        max-width: 500px;
+                        width: 100%;
+                    }
+
+                    .form-group {
+                        width: 100%;
+                        margin-bottom: 15px;
+                    }
+
+                    label {
+                        margin-bottom: 5px;
+                        display: block;
+                    }
+
+                    input,
+                    select,
+                    textarea {
+                        width: 100%;
+                        padding: 8px;
+                        border: 1px solid #ccc;
+                        border-radius: 4px;
+                    }
+
+                    button {
+                        background-color: #28a745;
+                        color: white;
+                        border: none;
+                        padding: 10px;
+                        cursor: pointer;
+                        border-radius: 50px;
+                        font-weight: 600;
+                    }
+
+                    button:hover {
+                        background-color: #218838;
+                    }
+
+                }
+            }
+        }
+    }
+}

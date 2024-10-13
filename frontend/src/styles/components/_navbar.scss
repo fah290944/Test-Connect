@@ -1,0 +1,122 @@
+* {
+    color: #023a51;
+}
+.bg-navbar {
+    display: flex;
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 2000;
+    justify-content: center;
+    border-bottom: 2px solid #9b9b9b;
+    height: 135px;
+
+    .navbar-box {
+        width: 80%;
+        display: flex;
+        gap: 35px;
+        justify-content: space-between;
+        transition: height 0.3s ease;
+
+        .navbar-logo {
+            width: 25%;
+            display: flex;
+            align-items: center;
+
+            .img-logo {
+                width: fit-content;
+                height: 65px;
+            }
+        }
+        .navbar-detail {
+            width: 75%;
+            display: flex;
+            flex-direction: column;
+
+            .contact-scroll {
+                display: none !important;
+            }
+            .navbar-contact {
+                height: 80%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding-top: 15px;
+
+                .btn-login {
+                    height: 35px;
+                    width: 90px;
+                    border-radius: 10px;
+                    font-weight: 600;
+                    font-size: 15px;
+                    color: #023a51;
+                    cursor: pointer;
+                }
+                .btn-user {
+                    height: 35px;
+                    width: 40px;
+                    background-color: transparent;
+                    border: none;
+                }
+            }
+            .navbar {
+                height: 100%;
+                display: flex;
+                justify-content: end;
+                align-items: center;
+                gap: 25px;
+                .navbar-item {
+                    height: 100%;
+                    display: flex;
+                    gap: 40px;
+                    align-items: center;
+                    font-weight: 700;
+                    font-size: 19px;
+                    .item-path {
+                        height: 70%;
+                        display: flex;
+                        align-items: center;
+                        padding-inline: 10px;
+                    }
+                    .item-path:hover {
+                        border-top: 3px solid #4778c6;
+                        border-bottom: 3px solid #4778c6;
+                    }
+                    .sub-menu-hover{
+                        background: white;
+                        position: absolute;
+                        width: 170px;
+                        border-radius: 0px 10px 10px 10px;
+                        top: 130px;
+                        .sub-item{
+                            font-size: 16px;
+                            font-weight: 600;
+                            padding-block: 10px;
+                        }
+                        .sub-item:hover{
+                            background: transparent;
+                        }
+                    }
+                }
+
+                .active {
+                    border-top: 3px solid #4778c6;
+                    border-bottom: 3px solid #4778c6;
+                }
+                .btn-contact {
+                    height: 55px;
+                    width: 168px;
+                    color: white;
+                    background-color: #2cbc63;
+                    border-radius: 50px;
+                    font-weight: 600;
+                    font-size: 19px;
+                }
+            }
+        }
+    }
+}
+
+.scroll {
+    min-height: 100px;
+    padding: 20px;
+}

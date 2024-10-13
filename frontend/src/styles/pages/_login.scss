@@ -1,0 +1,18 @@
+.login{
+    background: linear-gradient(180deg, #023a51, #3694ff, #e2e2e2);
+    .forgot-password{
+        color: #000;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    .btn-login{
+        background: linear-gradient(45deg, #023a51, #1565c0,);
+    }
+    .btn-login:hover{
+        background: linear-gradient(45deg, #09b9ff, #1565c0,);
+    }
+    .btn-sign-up:hover{
+       background: #fff;
+    }
+
+}
